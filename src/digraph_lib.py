@@ -81,9 +81,9 @@ class Digraph(RelationalStructure):
         return f"Digraph with {len(self.vertices)} vertices and {len(self.edges)} edges."
 
     def __str__(self) -> str:
-         return f"Digraph(\n" \
+         return f"Digraph(\n"                     \
                 f"    vertices={self.vertices},\n" \
-                f"    edges={self.edges}\n" \
+                f"    edges={self.edges}\n"         \
                 f")"     
 
     def __mul__(self, other: 'Digraph') -> 'Digraph':
