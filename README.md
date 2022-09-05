@@ -4,7 +4,7 @@
 
 ### Setup
 
-You should be able to open the UI by simply opening the "user_interface.pyw" file. To do this, you probably need to have Python installed, at least version 3.8 or higher. 
+You should be able to open the UI by simply opening the "user_interface.pyw" file as you would any executable file. To do this, you probably need to have Python installed, at least version 3.8 or higher. 
 
 After opening the UI, you should see three panels: top left, bottom left, and right.
 
@@ -12,9 +12,9 @@ The top left panel is where you will specify the structures between which you wi
 
 ### SAT-solving
 
-After selecting the type of polymorphism to be searched for and the polymorphism arity, you may select a SAT-solver from the drop down menu (Lineling or Glucose usually works best) and then click search. If a polymorphism is found, you can save it by clicking "Save polymorphism" on the lower right panel, which will just download a text file specifying the map. 
+After selecting the type of polymorphism to be searched for and the polymorphism arity, you may select a SAT-solver from the drop down menu (Lingeling or Glucose usually works best) and then click search. If a polymorphism is found, you can save it by clicking "Save polymorphism" on the lower right panel, which will just download a text file specifying the map. 
 
-If the structures are sufficiently small, you can also click the "Accumulate" option which will gather all of the polymorphiss of the specified type and arity between the structures, and follow this with "Find minion homomorphism to projections" which will attempt to locate a minion homomorphism from this gathered set of polymorphisms to to the set of 2-ary projections. 
+If the structures are sufficiently small, you can also click the "Accumulate" option which will gather all of the polymorphisms of the specified type and arity between the structures, and follow this with "Find minion homomorphism to projections" which will attempt to locate a minion homomorphism from this gathered set of polymorphisms to to the set of 3-ary projections over a 2 element set. 
 
 
 ### Automated Theorem Proving
