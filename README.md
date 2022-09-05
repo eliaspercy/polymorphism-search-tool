@@ -4,6 +4,8 @@
 
 ### Setup
 
+You should be able to open the UI by simply opening the "user_interface.pyw" file. To do this, you probably need to have Python installed, at least version 3.8 or higher. 
+
 After opening the UI, you should see three panels: top left, bottom left, and right.
 
 The top left panel is where you will specify the structures between which you wish to find polymorphisms. There are some preset options, such as cliques and cycles, but users are able to input completely arbitrary relational structures (which includes but is not limited to directed graphs). To input custom structures, just select the "Custom" option from the drop-down menu and select a valid text file. The format of such a text file is best explained by example, so see the "example-structures" folder. 
