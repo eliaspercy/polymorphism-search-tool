@@ -795,40 +795,6 @@ def custom_polymorphism(identities: list, arity: int) -> list:
 
 
 
-
-
-"""
-Some digraphs and things for testing
-"""
-
-# print(custom_polymorphism(['x,x,y','x,y,x','y,x,x'], 3)('1,1,2'))
-# print(cycles_of_string('1,1,2'))
-# exit()
-
-# A graph of particular interest
-Dd = Digraph(
-    vertices={1,2,3},
-    edges={(1,2),(2,3),(3,1)}
-)
-
-# D = Digraph(
-#     vertices={1,2,3},
-#     edges={(1,2),(2,3),(3,1),(3,2)}
-# )
-P3 = Digraph(
-    vertices={1,2,3},
-    edges={(1,2),(2,3)}
-)
-D1 = Digraph(
-    vertices={1,2,3},
-    edges={(1,2),(2,1),(2,3),(3,1),(3,2)}
-)
-
-D5_ = Digraph(
-    vertices=[1,2,3,4,5],
-    edges={(1,2),(2,3),(3,4),(4,5),(5,1),(1,3)}
-)
-
 if __name__ == '__main__':
     H = eval(sys.argv[1])
     G = eval(sys.argv[2])
