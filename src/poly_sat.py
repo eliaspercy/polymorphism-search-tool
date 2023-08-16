@@ -44,8 +44,12 @@ class PCSP():
             self.find_polymorphism = self.find_general_polymorphism
             self.G: RelationalStructure = G 
             self.H: RelationalStructure = H 
-            self.G.cvt2str(G)
-            self.H.cvt2str(H)
+            try: 
+                self.G.cvt2str()
+                self.H.cvt2str()
+            except:
+                self.G = Digraph.cvt2str(G)
+                self.H = Digraph.cvt2str(H)
 
         self.morphism: list = None
         self.polymorphisms = []
