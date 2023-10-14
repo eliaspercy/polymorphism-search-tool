@@ -4,7 +4,7 @@
 
 ### Setup
 
-FIRST: make sure all requirements are installed. A requirements.txt file has been included for the sake of convenience. The requirements include libraries for SAT solving and some other things. To install these, navigate via the terminal/command line to the polymorphism-search-tool-main folder, the one containing the requirements.txt file, and input "pip install -r requirements.txt". This should install to Python all of the necessary external libraries necessary for the program to run.
+FIRST: make sure all requirements are installed. A requirements.txt file has been included for the sake of convenience. The requirements include libraries for SAT solving and some other things. To install these, navigate via the terminal/command line to the polymorphism-search-tool-main folder, the one containing the requirements.txt file, and input "pip install -r requirements.txt". This should install to Python all of the external libraries necessary for the program to run.
 
 Next, you should be able to open the UI by simply opening the "user_interface.pyw" file as you would any executable file. To do this, you probably need to have Python installed, at least version 3.8 or higher. 
 
