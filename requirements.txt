@@ -1,0 +1,5 @@
+python-sat==0.1.7.dev10
+PySimpleGUI==4.56.0
+networkx==2.6.3
+numpy==1.20.1
+scipy==1.6.0

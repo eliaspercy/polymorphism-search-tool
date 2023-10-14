@@ -7,7 +7,7 @@ from pysat.solvers import Lingeling, Glucose3, Glucose4, Mergesat3, Minisat22
 from itertools import product, combinations, permutations, chain
 import time
 import networkx as nx
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import copy
 import numpy as np
 from scipy import sparse
@@ -44,8 +44,12 @@ class PCSP():
             self.find_polymorphism = self.find_general_polymorphism
             self.G: RelationalStructure = G 
             self.H: RelationalStructure = H 
-            self.G.cvt2str()
-            self.H.cvt2str()
+            try: 
+                self.G.cvt2str()
+                self.H.cvt2str()
+            except:
+                self.G = Digraph.cvt2str(G)
+                self.H = Digraph.cvt2str(H)
 
         self.morphism: list = None
         self.polymorphisms = []
